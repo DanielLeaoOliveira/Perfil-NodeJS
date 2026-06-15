@@ -69,8 +69,8 @@ const servidor = http.createServer((request, response) => {
             lerArquivo(response, "dados.json", "application/json; charset=utf-8")
             break;
 
-        case "/foto.png":
-            lerArquivo(response, "foto.png", "image/png; charset=utf-8")
+        case "/foto.jpeg":
+            lerArquivo(response, "foto.jpeg", "image/jpeg; charset=utf-8")
             break;
 
         default:
